@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+
+$bgColor: #d7e3f4;
+$calculatorColor: #214478;
+$buttonColor: #acc2e4;
+$buttonHovered: #3771c8;
+$equalsColor: #87aade;
+$clearColor: #fa7d2a;
+$clearHovered: #d45500;
+$displayColor: #7f9fd0;
+$formulaColor: #e6e6e6;
+$textColor: #ffffff;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $bgColor;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  background-color: $calculatorColor;
+  border: 0.2vw solid $calculatorColor;
+  width: 21vw;
+  height: auto;
+}
+
+.display {
+  background-color: $displayColor;
+  color: white;
+  padding: 0.2vw;
+  text-align: right;
+  margin: 0 0 0.2vw;
+  font-family: "JetBrains Mono";
+  font-size: 1.2vw;
+  height: auto;
+  max-width: 100%;
+}
+
+.formula {
+  color: $formulaColor;
+  font-size: 0.8vw;
+  min-height: 1vw;
+  display: block;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+.buttons {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-areas:
+    "clear divide multiply subtract"
+    "seven eight nine add"
+    "four five six add"
+    "one two three equals"
+    "zero zero decimal equals";
+  gap: 0.2vw;
+}
+
+.button {
+  width: 5vw;
+  height: 5vw;
+  background-color: $buttonColor;
+  font-family: "JetBrains Mono";
+  font-size: 3vw;
+  color: $textColor;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background-color: $buttonHovered;
+    cursor: pointer;
+  }
+
+  p {
+    user-select: none;
+    pointer-events: none;
+  }
+}
+
+#zero {
+  width: 10.2vw;
+}
+
+#equals {
+  height: 10.2vw;
+  background-color: $equalsColor;
+  &:hover {
+    background-color: $buttonHovered;
+  }
+}
+
+#clear {
+  background-color: $clearColor;
+  &:hover {
+    background-color: $clearHovered;
+  }
+}
+
+#add {
+  height: 10.2vw;
+}
+
+.display-limit {
+  background-color: $clearColor;
+}
