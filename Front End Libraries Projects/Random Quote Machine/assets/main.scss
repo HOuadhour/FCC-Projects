@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+
+$mainColor: blueviolet;
+$secondaryColor: white;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  background-color: $mainColor;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 1s;
+}
+
+#quote-box {
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: $secondaryColor;
+  width: 500px;
+  height: max-content;
+  color: $mainColor;
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+#text {
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  display: inline;
+  transition: color 0.5s;
+}
+
+.fa-quote-left {
+  font-size: 32px;
+  font-weight: bold;
+  margin-right: 5px;
+  transition: color 0.5s;
+}
+
+#author {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: right;
+  transition: color 0.5s;
+}
+
+.buttons {
+  display: flex;
+}
+
+.left {
+  display: flex;
+  justify-content: start;
+  flex: 3;
+}
+
+.btn {
+  background-color: $mainColor;
+  color: $secondaryColor;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+
+  i {
+    font-size: 20px;
+    color: $secondaryColor;
+  }
+}
+
+#new-quote {
+  width: max-content;
+  color: $secondaryColor;
+  flex: 1;
+  margin-right: 0;
+}
