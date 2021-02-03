@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;700&display=swap");
+
+$bgColor: #ffe6d5;
+$primaryColor: #ff5555;
+$secondaryColor: #ff8080;
+$borderColor: black;
+$textColor: white;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: $bgColor;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock {
+  width: 70%;
+  border: 2px solid $borderColor;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 5px;
+
+  .length-ui {
+    background-color: $primaryColor;
+    border: 2px solid $borderColor;
+    font-family: "JetBrains Mono";
+    font-weight: bold;
+    font-size: 2rem;
+    color: $textColor;
+
+    .length-label {
+      text-align: center;
+    }
+
+    .io-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .io-ui {
+        width: max-content;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+
+        p {
+          text-align: center;
+          font-size: 4rem;
+        }
+        i {
+          font-size: 4rem;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+.timer-wrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: $secondaryColor;
+  border: 2px solid $borderColor;
+  font-family: "JetBrains Mono";
+  font-weight: bold;
+  font-size: 2rem;
+  color: $textColor;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+
+  i {
+    text-align: center;
+    font-size: 5rem;
+  }
+
+  .wrapper {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .timer {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      font-size: 3rem;
+    }
+  }
+}
+
+.copyright {
+  display: block;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: center;
+  font-family: "JetBrains Mono";
+  font-weight: 100;
+  color: #666666;
+
+  a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+}
+
+i:hover {
+  color: rgb(255, 241, 211);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+  .clock {
+    width: 90%;
+    grid-template-columns: 1fr;
+
+    .length-ui {
+      .io-wrapper {
+        .io-ui {
+          p {
+            font-size: 3rem;
+          }
+
+          i {
+            font-size: 3rem;
+          }
+        }
+      }
+    }
+  }
+
+  .timer-wrapper {
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    i {
+      font-size: 3rem;
+    }
+
+    .timer {
+      p {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .copyright {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+}
