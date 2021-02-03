@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  // One rem unit now equal to 10px better than 16px when computing
+  font-size: calc(1000% / 16);
+}
+
+body {
+  background: url("https://i.picsum.photos/id/328/1920/1080.jpg?hmac=GzWsn55xhOHRCARN5cXJtn9qYRHSKjMjT1R495CPBZE");
+  background: url("https://i.picsum.photos/id/848/1920/1080.jpg?hmac=fKk31g0MJeQyXd6UsZd7ijWZibXy4d5BJhnXsiow3MI");
+  background-size: cover;
+  // background: linear-gradient(to top right, #428b11, #88ff00);
+  min-height: 100vh;
+}
+
+.container {
+  position: absolute;
+  display: flex;
+  flex-flow: column;
+  background: linear-gradient(
+    to top right,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.3)
+  );
+  width: 90%;
+  min-height: 95vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1rem;
+  backdrop-filter: blur(1rem);
+
+  h1 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 5rem;
+    text-align: center;
+  }
+
+  .canvas {
+    position: relative;
+    flex-grow: 1;
+    background: linear-gradient(
+      to top right,
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.3)
+    );
+    backdrop-filter: blur(1rem);
+    margin: 3rem;
+    margin-top: 0;
+    border-radius: 1rem;
+
+    #tooltip {
+      width: max-content;
+      height: max-content;
+      padding: 1rem;
+      background-color: rgba(255, 255, 255, 0.5);
+      opacity: 0;
+      position: absolute;
+      transition: all 0.3s;
+      font-family: "JetBrains Mono", monospace;
+      font-size: 1.5rem;
+      border-radius: 0.5rem;
+    }
+  }
+
+  svg {
+    position: absolute;
+
+    .bar {
+      fill: #01466f;
+
+      &:hover {
+        fill: #126da1;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .axis {
+    font-family: "JetBrains Mono", monospace;
+
+    text {
+      fill: blue;
+    }
+  }
+}
