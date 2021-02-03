@@ -1,0 +1,31 @@
+@import "editor";
+@import "previewer";
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Header {
+  background-color: #e6e6e6;
+  font-family: "JetBrains Mono";
+  font-size: 3vh;
+  padding: 1vh;
+  text-align: center;
+  margin-top: 1vh;
+  height: 5%;
+  line-height: 3vh;
+}
+
+body {
+  background-color: #e3dbdb;
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+}

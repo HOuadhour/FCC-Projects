@@ -1,0 +1,77 @@
+$codeColor: #e4e6eb;
+
+.previewer-wrapper {
+  height: 100vh;
+  flex: 3;
+  margin: 0 1vw;
+}
+
+#preview {
+  background-color: #ffffff;
+  height: 95%;
+  padding: 1rem;
+  font-family: "Ubuntu";
+  overflow-y: scroll;
+
+  * {
+    margin: 2vh 0;
+  }
+
+  code {
+    font-family: "JetBrains Mono";
+    font-size: 14px;
+    background-color: $codeColor;
+    border-radius: 0.5vh;
+    padding: 0.5vh;
+    width: 100%;
+  }
+
+  pre {
+    background-color: $codeColor;
+    padding: 0.5vh;
+    border-radius: 0.5vh;
+
+    code {
+      background-color: transparent;
+    }
+  }
+
+  blockquote {
+    border-left: 3px solid black;
+    margin-left: 2vw;
+    padding: 0.1vw;
+
+    p {
+      margin-left: 1vw;
+    }
+  }
+
+  table {
+    border: 2px solid black;
+    width: 100%;
+
+    th {
+      background-color: blanchedalmond;
+      padding: 1rem;
+      border: 1px solid black;
+    }
+
+    td {
+      text-align: center;
+      padding: 1rem;
+      border: 1px solid black;
+    }
+  }
+
+  ul,
+  ol {
+    text-indent: 10px !important;
+    list-style-position: inside;
+
+    ul {
+      li {
+        padding-left: 2vw;
+      }
+    }
+  }
+}
