@@ -14,5 +14,5 @@ Thanks freeCodeCamp for this work.
 
 ---
 
-3. [Front End Libraries](./Front End Libraries Projects)
-4. [Data Visualization](./Data Visualization Projects)
+3. [Front End Libraries](https://github.com/HOuadhour/FCC-Projects/tree/main/Front%20End%20Libraries%20Projects)
+4. [Data Visualization](https://github.com/HOuadhour/FCC-Projects/tree/main/Data%20Visualization%20Projects)
