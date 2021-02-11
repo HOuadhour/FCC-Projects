@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  // One rem unit now equal to 10px better than 16px when computing
+  font-size: calc(1000% / 16);
+}
+
+body {
+  background: linear-gradient(to top, steelblue, slateblue);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 95%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 1rem;
+
+  h1,
+  h3 {
+    font-family: "JetBrains Mono";
+  }
+
+  h1 {
+    font-size: 4rem;
+    color: slateblue;
+  }
+
+  h3 {
+    font-size: 2rem;
+    color: steelblue;
+  }
+
+  .canvas {
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .county {
+      stroke: white;
+      stroke-width: 0.2px;
+    }
+
+    .state {
+      fill: none;
+      stroke: white;
+      stroke-width: 0.5px;
+    }
+
+    #legend {
+      .tick {
+        font-family: "JetBrains Mono", monospace;
+
+        text {
+          font-size: 1.2rem;
+          fill: steelblue;
+        }
+      }
+    }
+
+    #tooltip {
+      width: max-content;
+      height: max-content;
+      padding: 1rem;
+      background-color: rgba(255, 255, 255, 0.8);
+      opacity: 0;
+      position: absolute;
+      transition: all 0.2s;
+      font-family: "JetBrains Mono", monospace;
+      font-size: 1.5rem;
+      border-radius: 0.5rem;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    h1 {
+      font-size: 3rem;
+    }
+    h3 {
+      font-size: 1.2rem;
+    }
+  }
+}
