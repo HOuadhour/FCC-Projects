@@ -4,3 +4,6 @@
 [submodule "APIs and Microservices Projects/Basic Node and Express"]
 	path = APIs and Microservices Projects/Basic Node and Express
 	url = https://github.com/HOuadhour/boilerplate-express.git
+[submodule "APIs and Microservices Projects/MongoDB and Mongoose"]
+	path = APIs and Microservices Projects/MongoDB and Mongoose
+	url = https://github.com/HOuadhour/MongoDB-and-Mongoose.git
