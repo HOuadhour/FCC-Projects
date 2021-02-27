@@ -10,3 +10,6 @@
 [submodule "APIs and Microservices Projects/Projects/Timestamp Microservice"]
 	path = APIs and Microservices Projects/Projects/Timestamp Microservice
 	url = https://github.com/HOuadhour/Timestamp-Microservice.git
+[submodule "APIs and Microservices Projects/Projects/Request Header Parser Microservice"]
+	path = APIs and Microservices Projects/Projects/Request Header Parser Microservice
+	url = https://github.com/HOuadhour/Request-Header-Parser-Microservice.git
