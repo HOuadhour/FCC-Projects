@@ -16,3 +16,6 @@
 [submodule "APIs and Microservices Projects/Projects/URL Shortener Microservice"]
 	path = APIs and Microservices Projects/Projects/URL Shortener Microservice
 	url = https://github.com/HOuadhour/URL-Shortener-Microservice.git
+[submodule "APIs and Microservices Projects/Projects/Exercice Tracker"]
+	path = APIs and Microservices Projects/Projects/Exercice Tracker
+	url = https://github.com/HOuadhour/Exercise-Tracker.git
