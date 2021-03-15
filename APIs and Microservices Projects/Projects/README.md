@@ -5,4 +5,5 @@ You've worked with APIs before, but now that you know npm, Node, Express, MongoD
 1. [Timestamp Microservice](https://github.com/HOuadhour/Timestamp-Microservice)
 2. [Request Header Parser Microservice](https://github.com/HOuadhour/Request-Header-Parser-Microservice)
 3. [URL Shortener Microservice](https://github.com/HOuadhour/URL-Shortener-Microservice)
-4. [Exercice Tracker](https://github.com/HOuadhour/Exercise-Tracker)
+4. [Exercise Tracker](https://github.com/HOuadhour/Exercise-Tracker)
+5. [File Metadata](https://github.com/HOuadhour/File-Metadata)

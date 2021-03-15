@@ -19,3 +19,6 @@
 [submodule "APIs and Microservices Projects/Projects/Exercice Tracker"]
 	path = APIs and Microservices Projects/Projects/Exercice Tracker
 	url = https://github.com/HOuadhour/Exercise-Tracker.git
+[submodule "APIs and Microservices Projects/Projects/File Metadata"]
+	path = APIs and Microservices Projects/Projects/File Metadata
+	url = https://github.com/HOuadhour/File-Metadata.git
