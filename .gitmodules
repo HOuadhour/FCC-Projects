@@ -22,3 +22,6 @@
 [submodule "APIs and Microservices Projects/Projects/File Metadata"]
 	path = APIs and Microservices Projects/Projects/File Metadata
 	url = https://github.com/HOuadhour/File-Metadata.git
+[submodule "Quality Assurance Projects/Challenges/Quality Assurance and Testing with Chai"]
+	path = Quality Assurance Projects/Challenges/Quality Assurance and Testing with Chai
+	url = https://github.com/HOuadhour/Quality-Assurance-and-Testing-with-Chai.git
