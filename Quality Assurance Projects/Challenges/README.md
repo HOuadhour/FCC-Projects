@@ -1,7 +1,8 @@
 # Quality Assurance
 
-As your programs or web applications become more complex, you'll want to test them to make sure that new changes don't break their original functionality.
+Chai is a JavaScript testing library that helps you confirm that your program still behaves the way you expect it to after you make changes to your code.
 
-In the Quality Assurance Certification, you'll learn how to write to write tests with Chai to ensure your applications work the way you expect them to.
+Using Chai, you can write tests that describe your program's requirements and see if your program meets them.
 
 1. [Quality Assurance and Testing with Chai](https://github.com/HOuadhour/Quality-Assurance-and-Testing-with-Chai)
+2. [Advanced Node and Express](https://github.com/HOuadhour/Advanced-Node-and-Express)

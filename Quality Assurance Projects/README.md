@@ -1,8 +1,11 @@
-# APIs and Microservices
+# Quality and Assurance
 
-In the APIs and Microservices Certification, you'll learn how to write back end-ready with Node.js and npm (Node Package Manager). You'll also build web applications with the Express framework, and build a People Finder microservice with MongoDB and the Mongoose library.
+As your programs or web applications become more complex, you'll want to test them to make sure that new changes don't break their original functionality.
 
-1. [Managing Packages with NPM](https://github.com/HOuadhour/Managing-Packages-with-NPM)
-2. [Basic Node and Express](https://github.com/HOuadhour/boilerplate-express)
-3. [MongoDB and Mongoose](https://github.com/HOuadhour/MongoDB-and-Mongoose)
-4. [Projects](https://github.com/HOuadhour/FCC-Projects/tree/main/APIs%20and%20Microservices%20Projects/Projects)
+In the Quality Assurance Certification, you'll learn how to write to write tests with Chai to ensure your applications work the way you expect them to.
+
+Then you'll build a chat application to learn advanced Node and Express concepts. You'll also use Pug as a template engine, Passport for authentication, and Socket.io for real-time communication between the server and connected clients.
+
+
+1. [Chapters](https://github.com/HOuadhour/FCC-Projects/tree/main/Quality%20Assurance%20Projects/Challenges)
+2. [Projects]()

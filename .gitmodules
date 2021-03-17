@@ -25,3 +25,6 @@
 [submodule "Quality Assurance Projects/Challenges/Quality Assurance and Testing with Chai"]
 	path = Quality Assurance Projects/Challenges/Quality Assurance and Testing with Chai
 	url = https://github.com/HOuadhour/Quality-Assurance-and-Testing-with-Chai.git
+[submodule "Quality Assurance Projects/Challenges/Advanced Node and Express"]
+	path = Quality Assurance Projects/Challenges/Advanced Node and Express
+	url = https://github.com/HOuadhour/Advanced-Node-and-Express.git
