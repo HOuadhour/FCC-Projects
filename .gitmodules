@@ -28,3 +28,6 @@
 [submodule "Quality Assurance Projects/Challenges/Advanced Node and Express"]
 	path = Quality Assurance Projects/Challenges/Advanced Node and Express
 	url = https://github.com/HOuadhour/Advanced-Node-and-Express.git
+[submodule "Quality Assurance Projects/Projects/Metric-Imperial Converter"]
+	path = Quality Assurance Projects/Projects/Metric-Imperial Converter
+	url = https://github.com/HOuadhour/Metric-Imperial-Converter.git
