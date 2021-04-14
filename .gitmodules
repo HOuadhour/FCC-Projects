@@ -31,3 +31,6 @@
 [submodule "Quality Assurance Projects/Projects/Metric-Imperial Converter"]
 	path = Quality Assurance Projects/Projects/Metric-Imperial Converter
 	url = https://github.com/HOuadhour/Metric-Imperial-Converter.git
+[submodule "Quality Assurance Projects/Projects/Issue Tracker"]
+	path = Quality Assurance Projects/Projects/Issue Tracker
+	url = https://github.com/HOuadhour/Issue-Tracker.git
