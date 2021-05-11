@@ -34,3 +34,6 @@
 [submodule "Quality Assurance Projects/Projects/Issue Tracker"]
 	path = Quality Assurance Projects/Projects/Issue Tracker
 	url = https://github.com/HOuadhour/Issue-Tracker.git
+[submodule "Quality Assurance Projects/Projects/Personal Library"]
+	path = Quality Assurance Projects/Projects/Personal Library
+	url = https://github.com/HOuadhour/Personal-Library.git
