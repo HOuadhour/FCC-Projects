@@ -37,3 +37,6 @@
 [submodule "Quality Assurance Projects/Projects/Personal Library"]
 	path = Quality Assurance Projects/Projects/Personal Library
 	url = https://github.com/HOuadhour/Personal-Library.git
+[submodule "Quality Assurance Projects/Projects/Sudoku Solver"]
+	path = Quality Assurance Projects/Projects/Sudoku Solver
+	url = https://github.com/HOuadhour/Sudoku-Solver.git
