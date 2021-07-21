@@ -40,3 +40,6 @@
 [submodule "Quality Assurance Projects/Projects/Sudoku Solver"]
 	path = Quality Assurance Projects/Projects/Sudoku Solver
 	url = https://github.com/HOuadhour/Sudoku-Solver.git
+[submodule "Quality Assurance Projects/Projects/American British Translator"]
+	path = Quality Assurance Projects/Projects/American British Translator
+	url = https://github.com/HOuadhour/American-British-Translator.git
