@@ -43,3 +43,6 @@
 [submodule "Quality Assurance Projects/Projects/American British Translator"]
 	path = Quality Assurance Projects/Projects/American British Translator
 	url = https://github.com/HOuadhour/American-British-Translator.git
+[submodule "Information Security Projects/Stock Price Checker"]
+	path = Information Security Projects/Stock Price Checker
+	url = https://github.com/HOuadhour/Stock-Price-Checker.git
