@@ -46,3 +46,6 @@
 [submodule "Information Security Projects/Stock Price Checker"]
 	path = Information Security Projects/Stock Price Checker
 	url = https://github.com/HOuadhour/Stock-Price-Checker.git
+[submodule "Information Security Projects/Anonymous Message Board"]
+	path = Information Security Projects/Anonymous Message Board
+	url = https://github.com/HOuadhour/Anonymous-Message-Board.git
