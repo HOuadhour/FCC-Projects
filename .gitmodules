@@ -52,3 +52,6 @@
 [submodule "Information Security Projects/Port Scanner"]
 	path = Information Security Projects/Port Scanner
 	url = https://github.com/HOuadhour/Port-Scanner.git
+[submodule "Information Security Projects/SHA1 Password Cracker"]
+	path = Information Security Projects/SHA1 Password Cracker
+	url = https://github.com/HOuadhour/SHA1-Password-Cracker.git
