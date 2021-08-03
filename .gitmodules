@@ -49,3 +49,6 @@
 [submodule "Information Security Projects/Anonymous Message Board"]
 	path = Information Security Projects/Anonymous Message Board
 	url = https://github.com/HOuadhour/Anonymous-Message-Board.git
+[submodule "Information Security Projects/Port Scanner"]
+	path = Information Security Projects/Port Scanner
+	url = https://github.com/HOuadhour/Port-Scanner.git
