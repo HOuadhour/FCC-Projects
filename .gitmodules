@@ -55,3 +55,6 @@
 [submodule "Information Security Projects/SHA1 Password Cracker"]
 	path = Information Security Projects/SHA1 Password Cracker
 	url = https://github.com/HOuadhour/SHA1-Password-Cracker.git
+[submodule "Information Security Projects/Secure Realtime Multiplayer Game"]
+	path = Information Security Projects/Secure Realtime Multiplayer Game
+	url = git@github.com:HOuadhour/Secure-Realtime-Multiplayer-Game.git
